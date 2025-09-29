@@ -1,0 +1,13 @@
+.photosvr canvas {
+	width:100%;
+	position: relative;
+	display: block;
+}
+.photosvr.square canvas {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.photosvr.wide canvas {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
